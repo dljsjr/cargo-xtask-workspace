@@ -1,0 +1,15 @@
+[workspace]
+members = ["xtask/", "crates/*"]
+
+[workspace.package]
+authors = ["<EDIT_ME>"]
+edition = "2021"
+license = "MIT"
+version = "0.0.1"
+
+[workspace.dependencies]
+anyhow = "*"
+clap = "*"
+env_logger = "*"
+thiserror = "*"
+tracing = "*"
